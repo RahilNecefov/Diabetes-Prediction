@@ -86,7 +86,7 @@ def load_model(model_path):
     return model
 
 # Load your model here, replace 'My-Predictor - under_Sampling - Copy.pkl' with the actual path to your model file
-model_path = "C:/Users/LENOVO/Desktop/MY_PROJECT_2024/trained_model.sav"
+model_path = "trained_model.sav"
 model = load_model(model_path)
 
 # Create a StandardScaler instance
