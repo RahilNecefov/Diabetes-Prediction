@@ -44,7 +44,7 @@ warnings.simplefilter(action='ignore')
 # Function to load the model
 
 
-with open('C:/Users/LENOVO/Desktop/MY_PROJECT_2024/saved_data.pkl', 'rb') as f:
+with open('saved_data.pkl', 'rb') as f:
     my_df = pickle.load(f)
 
 
